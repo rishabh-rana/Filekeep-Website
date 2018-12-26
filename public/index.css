@@ -1,0 +1,447 @@
+#mainnav {
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: inherit !important;
+  margin: inherit;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+  display: inline-block;
+}
+
+.brandlinks {
+  font-size: 25px;
+}
+.brandlinks a {
+  color: inherit;
+  text-decoration: none;
+}
+.brandlinks i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#mainnavtext {
+  font-family: "Raleway", sans-serif !important;
+}
+* {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+#mainnavlogo {
+  width: 25px;
+  padding-bottom: 5px;
+}
+
+#herocuthighlight {
+  background: linear-gradient(-90deg, #6e009d, #470087);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.herotext {
+  width: 90%;
+  font-size: 45px;
+  padding-left: 3px;
+  line-height: normal;
+  z-index: 100;
+}
+
+#mainherogtad {
+  background: #3a114f;
+
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  margin-bottom: 100px;
+}
+
+#fakeimg {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  position: absolute;
+}
+
+.subtext {
+  font-size: 23px;
+  opacity: 0.7;
+  width: 80%;
+  margin-top: 20px;
+  font-weight: 300;
+  z-index: 100;
+}
+
+.hideme {
+  opacity: 1 !important;
+}
+
+.spinmyloader {
+  transform: rotate(900deg);
+  transition: all 2s;
+}
+
+#myform {
+  margin-top: 30px;
+}
+
+#myform input,
+#myform2 input {
+  display: inline-block;
+
+  padding: 0.5rem 0px;
+  color: black;
+  border-radius: 5px;
+  margin: 0;
+  border: none;
+  outline: none;
+  width: 0;
+  opacity: 0;
+  max-width: 500px;
+}
+
+#myform2 input {
+  width: 500px;
+  opacity: 1;
+}
+#submit,
+#submit2 {
+  padding: 0.5rem 2rem;
+  text-align: center;
+  background: #eb00ff;
+  display: inline;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+#submit2 {
+  padding: 10px 14px;
+  border-radius: 100%;
+}
+
+#myforminput2 {
+  padding-left: 12px !important;
+}
+
+.mycontainer {
+  padding-left: 70px;
+  z-index: 100;
+}
+.onereplacement {
+  min-height: 600px;
+  z-index: 100;
+}
+
+.removeme {
+  display: static !important;
+}
+.art {
+  display: none;
+  position: relative;
+  top: -50px;
+  height: 200px;
+  width: 100%;
+  background: url("./art.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.one {
+  background: url("./Asset 10.svg");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+  position: absolute;
+  top: 0;
+  height: 600px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  /* filter: blur(2px); */
+}
+
+.infotriplet {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.infohr {
+  text-align: left;
+  margin-left: 0;
+  display: block;
+  width: 50%;
+}
+
+.infosubtext {
+  display: block;
+  color: #7d658d;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.infortripletheadline {
+  color: #f1d9ff;
+}
+
+.infotripletheader {
+  color: #513f5d;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: Lato;
+}
+
+.sampleimagecontainer {
+  overflow: visible;
+}
+
+.storeimage {
+  background: url("storeimage.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.organizeimage {
+  background: url("o3.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.treasureimage {
+  background: url("t8.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.sprintimage {
+  background: url("s7.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.retrieveimage {
+  background: url("r8.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.toggleimageside {
+  display: none;
+}
+.toggleimageside2 {
+  display: inline-block;
+}
+
+.mainfooterbox {
+  min-height: 200px;
+
+  background: #3a114f;
+  -webkit-clip-path: polygon(0 0, 100% 33%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 33%, 100% 100%, 0% 100%);
+}
+.footerboxcutstyle {
+  min-height: 200px;
+  padding-top: 70px;
+  /* position: absolute; */
+  background: linear-gradient(-90deg, #6e009d, #470087);
+  -webkit-clip-path: polygon(0 0, 100% 38%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 38%, 100% 100%, 0% 100%);
+}
+
+.footermagictext {
+  font-size: 18px;
+}
+
+.footerabovebox {
+  margin-top: 150px;
+}
+
+.madewithlove {
+  font-size: 13px;
+}
+
+.footerabovebox .text-center {
+  width: 100%;
+}
+
+.branding {
+  font-family: "Raleway", sans-serif !important;
+  color: #470087;
+  font-size: 25px;
+}
+
+.logofooter {
+  width: 100px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .one {
+    background-position: 20% 50%;
+    background-size: 127% 127%;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .one {
+    background-size: 155% 155%;
+  }
+  .mycontainer {
+    padding-left: 40px;
+  }
+  .herotext {
+    font-size: 38px;
+  }
+  .subtext {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .one {
+    background-size: 165% 165%;
+  }
+  #mainnav {
+    margin-bottom: 110px;
+  }
+  .herotext {
+    font-size: 35px;
+  }
+  .toggleimageside {
+    display: none;
+  }
+  .toggleimageside2 {
+    display: inline-block;
+  }
+  #myform2 input {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .herotext {
+    font-size: 30px;
+  }
+  .subtext {
+    font-size: 18px;
+  }
+  .scrolldownarrow {
+    font-size: 30px;
+  }
+  .one {
+    background-size: 190% 190%;
+  }
+  .sampleimagecontainer {
+    margin-top: 70px;
+  }
+  .organizeimage,
+  .sprintimage,
+  .retrieveimage {
+    height: 225px;
+  }
+  .treasureimage {
+    height: 225px;
+  }
+  .storeimage {
+    height: 200px;
+  }
+  .infotriplet {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .toggleimageside {
+    display: inline-block;
+  }
+  .toggleimageside2 {
+    display: none;
+  }
+  .footerboxcutstyle {
+    padding-top: 90px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .one {
+    background-position: 35% 50%;
+    background-size: 250% 250%;
+    filter: blur(5px);
+  }
+  #mainnav {
+    margin-bottom: 120px;
+    font-size: 17px;
+  }
+  .herotext {
+    font-size: 35px;
+  }
+  .subtext {
+    font-size: 23px;
+  }
+  .removeme {
+    display: static !important;
+  }
+  #myform2 input {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .herotext {
+    font-size: 35px;
+  }
+  .subtext {
+    font-size: 23px;
+    width: 100%;
+  }
+  .mycontainer {
+    padding-left: 15px;
+  }
+
+  .one {
+    background-position: 40% 50%;
+    background-size: 330% 330%;
+  }
+  .removeme {
+    display: none !important;
+  }
+  #myform2 input {
+    width: 270px;
+  }
+  .footermagictext {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 383px) {
+  .herotext {
+    font-size: 28px;
+    width: 90%;
+  }
+  .subtext {
+    font-size: 20px;
+  }
+  .one {
+    background-size: 390% 390%;
+    background-position: 40% 50%;
+  }
+  .removeme {
+    display: none !important;
+  }
+  #myform2 input {
+    width: 200px;
+  }
+}
