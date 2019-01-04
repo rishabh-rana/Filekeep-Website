@@ -11,9 +11,15 @@ var $form2 = $("#myform2");
 var isopen = false;
 $("#submit").on("click", function(e) {
   e.preventDefault();
-
+  mixpanel.track("interactedwithemailbutton");
   if (isopen) {
     if (isValidEmailAddress($("#myforminput")[0].value)) {
+      mixpanel.identify($("#myforminput")[0].value);
+      mixpanel.people.set({
+        $email: $("#myforminput")[0].value,
+        $name: $("#myforminput")[0].value.split("@")[0]
+      });
+      mixpanel.track("sentemail");
       $("#submit i").removeClass("fas fa-paper-plane");
       $("#submit i").addClass("fas fa-sync-alt");
       $("#submit").addClass("spinmyloader");
@@ -67,6 +73,12 @@ $("#submit2").on("click", function(e) {
 
   if (true) {
     if (isValidEmailAddress($("#myforminput2")[0].value)) {
+      mixpanel.identify($("#myforminput2")[0].value);
+      mixpanel.people.set({
+        $email: $("#myforminput2")[0].value,
+        $name: $("#myforminput2")[0].value.split("@")[0]
+      });
+      mixpanel.track("sentemail2");
       $("#submit2 i").removeClass("fas fa-paper-plane");
       $("#submit2 i").addClass("fas fa-sync-alt");
 
