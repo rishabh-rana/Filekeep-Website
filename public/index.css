@@ -208,12 +208,17 @@ h3 {
 .sampleimagecontainer {
   overflow: visible;
 }
+.d-flex-override {
+  display: flex;
+  display: -ms-flexbox;
+}
 
 .storeimage {
   background: url("storeimage.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
   height: 300px;
 }
 .organizeimage {
@@ -221,6 +226,7 @@ h3 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
   height: 300px;
 }
 .treasureimage {
@@ -228,12 +234,14 @@ h3 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
   height: 300px;
 }
 .sprintimage {
   background: url("s7.svg");
   background-position: center;
   background-size: contain;
+  width: 100%;
   background-repeat: no-repeat;
   height: 300px;
 }
@@ -242,6 +250,7 @@ h3 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
   height: 300px;
 }
 
@@ -249,7 +258,7 @@ h3 {
   display: none;
 }
 .toggleimageside2 {
-  display: inline-block;
+  display: flex;
 }
 
 .mainfooterbox {
@@ -331,7 +340,7 @@ h3 {
     display: none;
   }
   .toggleimageside2 {
-    display: inline-block;
+    display: flex;
   }
   #myform2 input {
     width: 400px;
